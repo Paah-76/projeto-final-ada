@@ -23,6 +23,10 @@ jobs:
         pip install -r requirements.txt
         pip install -r requirements-dev.txt
 
+    - name: Verify pytest installation
+      run: |
+          pip show pytest
+
     - name: Run tests
       run: |
         pytest
