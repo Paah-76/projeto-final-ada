@@ -2,12 +2,12 @@
 
 ## Descrição
 
-Aplicação para coletar e validar informações de pets usando um formulário web.
+Este é um projeto simples que permite a coleta de informações de um pet através de um formulário HTML.
 
 ## Requisitos
 
-Antes de executar o projeto, certifique-se de que você tem o Python 3 e o Flask instalados. Para instalar o Flask, 
-você pode usar um ambiente virtual (recomendado) e seguir os passos abaixo.
+Python 3.12 ou superior
+pip (gerenciador de pacotes Python)
 
 ## Configuração do Ambiente
 
@@ -15,7 +15,7 @@ você pode usar um ambiente virtual (recomendado) e seguir os passos abaixo.
 
 ```bash
 git clone <URL-do-repositório>
-cd <nome-do-repositório
+cd <nome-do-repositório>
 ```
 
 2. **Crie um ambiente virtual**
@@ -28,16 +28,23 @@ venv\Scripts\activate
 3. **Instale as Dependências**
 
 ```bash
-pip install flask
+pip install -r requirements.txt
 ```
 
 ## Como usar 
 
-Com o ambiente vitual atiado execute
+1. Com o ambiente vitual criado execute
 
 ```bash
 python app.py
 ```
+O servidor Flask estará disponível em http://localhost:5000.
+
+2. Acesse o Formulário
+Abra seu navegador e acesse http://localhost:5000 para ver o formulário de cadastro de informações do pet.
+
+
+
 
 
 
