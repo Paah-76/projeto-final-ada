@@ -43,17 +43,7 @@ O servidor Flask estará disponível em http://localhost:5000.
 2. Acesse o Formulário
 Abra seu navegador e acesse http://localhost:5000 para ver o formulário de cadastro de informações do pet.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## Possiveis problemas !!
+
+1. pode ser que você tenha problemas com o Flask na execução de scripts, você pode alterar as politicas no powershell
+
