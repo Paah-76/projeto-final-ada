@@ -1,5 +1,6 @@
 from flask import Flask, request, render_template
 
+# alteração do direotio padrão para paginaWeb
 app = Flask(__name__, template_folder='paginaWeb')
 
 def validar_idade(idade):
