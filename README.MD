@@ -1,4 +1,4 @@
-# Desafio Modulo Git ADA - Thayse. 
+# Desafio Modulo Git ADA - ApiPet
 
 ## Descrição
 
