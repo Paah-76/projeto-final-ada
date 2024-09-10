@@ -1,19 +1,32 @@
 # Contribuindo com o projeto
 
-## Tipos de Commits
-- **feat**: nova funcionalidade
-- **fix**: correção de bug
-- **docs**: mudanças na documentação
-- **style**: formatação, falta de ponto e vírgula, etc.
-- **refactor**: alterações no código que não corrigem bugs nem adicionam funcionalidades
-- **test**: adicionar testes ou corrigir testes existentes
+## Se você deseja contribuir para este projeto, siga estas etapas:
 
+1. Faça um Fork do Repositório
+2. Clone seu Fork
 
-## Como Abrir um Pull Request
-1. Faça um fork do repositório.
-2. Crie uma branch para suas alterações.
-3. Realize suas mudanças e faça commits.
-4. Abra um pull request para a branch `main` do repositório original.
+```
+git clone https://github.com/your-username/repository-name.git
+```
+3. Crie uma Branch para sua Feature
+
+```
+git checkout -b nome-da-sua-feature
+```
+4. Faça suas Alterações e Commit
+
+```
+git add .
+git commit -m "Adiciona nova feature"
+```
+5. Envie sua Branch para o Repositório Remoto
+
+```
+git push origin nome-da-sua-feature
+```
+
+## Abrir um Pull Request
+1. No GitHub, abra um Pull Request para revisar e integrar suas alterações.
 
 ## Exemplos de Commits
 - `feat: adicionar endpoint para login`
